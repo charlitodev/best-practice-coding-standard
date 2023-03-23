@@ -25,7 +25,11 @@ const MediaIndex = ({ thumbnail, title, youtuber, views }) => {
   };
 
   return (
-    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div
+      className="youtube__video__container"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       {isHovered ? (
         <iframe
           width="560"

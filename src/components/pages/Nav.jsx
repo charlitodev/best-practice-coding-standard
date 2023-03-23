@@ -21,6 +21,7 @@ const Nav = () => {
         </button>
       </div>
       <div className="right__panel">
+        <i className="fa-solid fa-magnifying-glass search__icon"></i>
         <i className="fa-solid fa-video"></i>
         <i className="fa-solid fa-bell"></i>
         <img src={userLogo} alt={userLogo} className="user__logo" />
